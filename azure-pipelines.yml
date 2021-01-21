@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: '47d50c3d-6fc8-47f0-8c13-e9825cc28559'
   imageRepository: 'aksping'
   containerRegistry: 'wynk8sacr.azurecr.io'
-  dockerfilePath: '*/DOCKERFILE'
+  dockerfilePath: 'DOCKERFILE'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'wynk8sacr1931b79f-auth'
 
